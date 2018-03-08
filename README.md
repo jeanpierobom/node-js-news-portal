@@ -7,3 +7,8 @@ This is a project I created to learn NodeJS and related technologies
 * NodeJS
 * Express
 * CommonJS
+* ESLint
+
+## TODO
+
+* Configure prepush to check eslint warnings
