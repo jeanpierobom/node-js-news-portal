@@ -1,0 +1,22 @@
+{
+  "name": "node-js-news-portal",
+  "version": "1.0.0",
+  "description": "This is a project I developed to learn NodeJS",
+  "main": "news.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanpierobom/node-js-news-portal.git"
+  },
+  "author": "Jean Pierobom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeanpierobom/node-js-news-portal/issues"
+  },
+  "homepage": "https://github.com/jeanpierobom/node-js-news-portal#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
