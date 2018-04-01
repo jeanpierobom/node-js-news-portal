@@ -1,5 +1,5 @@
-module.exports = function(application) {
+module.exports = function createRoutes(application) {
   application.get('/', (req, res) => {
     application.app.controllers.home.index(application, req, res);
   });
-}
+};

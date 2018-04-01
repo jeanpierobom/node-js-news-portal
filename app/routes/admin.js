@@ -1,4 +1,4 @@
-module.exports = function(application) {
+module.exports = function createRoutes(application) {
   application.get('/formulario_inclusao_noticia', (req, res) => {
     application.app.controllers.admin.formulario_inclusao_noticia(application, req, res);
   });
@@ -6,5 +6,4 @@ module.exports = function(application) {
   application.post('/noticias/salvar', (req, res) => {
     application.app.controllers.admin.noticias_salvar(application, req, res);
   });
-  
-}
+};

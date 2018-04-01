@@ -1,4 +1,4 @@
-module.exports = function(application) {
+module.exports = function createRoutes(application) {
   application.get('/noticias', (req, res) => {
     application.app.controllers.noticias.noticias(application, req, res);
   });
